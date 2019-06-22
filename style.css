@@ -23,9 +23,9 @@
     background: rgba(0,0,0,0.8);
     z-index: 99999;
     opacity: 0;
-    -webkit-transition: opacity 400ms ease-in;  
-    -moz-transtition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
+    -webkit-transition: opacity 200ms ease-in;  
+    -moz-transtition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
     pointer-events: none;
 }
 
@@ -102,8 +102,10 @@ label {
   padding: 15px 25px;
   font-weight: 600;
   text-align: center;
-  color: #abc;
+  color: #91C717;
   border: 1px solid transparent;
+  background: #F3F3F3;
+  border-radius: 5% 5% 0% 0%;
 }
 
 label:before {
@@ -112,10 +114,10 @@ label:before {
   margin-right: 10px;
 }
 
-label[for*='1']:before { content: '\f1cb'; }
+/* label[for*='1']:before { content: '\f1cb'; }
 label[for*='2']:before { content: '\f17d'; }
 label[for*='3']:before { content: '\f16c'; }
-label[for*='4']:before { content: '\f171'; }
+label[for*='4']:before { content: '\f171'; } */
 
 label:hover {
   color: #789;
@@ -123,10 +125,11 @@ label:hover {
 }
 
 input:checked + label {
-  color: #0af;
-  border: 1px solid #abc;
-  border-top: 2px solid #0af;
-  border-bottom: 1px solid #fff;
+  color: #FFFFFF;
+  border: 1px solid #91C717;
+  border-top: 2px solid #91C717;
+  border-bottom: 1px solid #91C717;
+  background: #91C717;
 }
 
 #tab1:checked ~ #content1,
