@@ -34,7 +34,7 @@
     pointer-events: auto;
 }
 
-.modalDialog > div {
+.modalDialog > #modi {
     width: 800px;
     height: 600px;
     position: relative;
