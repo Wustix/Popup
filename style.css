@@ -74,24 +74,25 @@
   background: #00d9ff; 
 }
 
-/* *,*::before,*::after{
+*,*::before,*::after{
   margin:0;
   padding:0;
   box-sizing:border-box;
-} */
+}
 
 html,#body{
   height:100vh;
 }
 
-#body{
+/* #body{
   display:flex;
   align-items:center;
   justify-content:center;
   padding:40px;
   font:14px/1.5 'Open Sans',sans-serif;
   color:#345;
-  background:#f0f2f4;}
+  background:#f0f2f4;
+} */
 
 p:not(:last-child) {
   margin: 0 0 20px;
